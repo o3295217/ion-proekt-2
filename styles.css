@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e5e5e5;  
+    background-color: #ff0000;  /* Сделали цвет фона красным */
     color: #333;
 }
 
