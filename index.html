@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корпоративный сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#news">Новости</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>О нашей компании</h1>
+            <p>Мы занимаемся предоставлением высококачественных услуг с 1990 года.</p>
+        </section>
+        <section id="services">
+            <h2>Наши услуги</h2>
+            <ul>
+                <li>Консультации</li>
+                <li>Разработка программного обеспечения</li>
+                <li>Поддержка и обслуживание</li>
+            </ul>
+        </section>
+        <section id="products">
+            <h2>Наши товары</h2>
+            <div class="product">
+                <h3>Товар 1</h3>
+                <p>Описание товара 1. Цена: $100</p>
+            </div>
+            <div class="product">
+                <h3>Товар 2</h3>
+                <p>Описание товара 2. Цена: $200</p>
+            </div>
+            <div class="product">
+                <h3>Товар 3</h3>
+                <p>Описание товара 3. Цена: $300</p>
+            </div>
+        </section>
+        <section id="news">
+            <h2>Новости</h2>
+            <p>Последние новости и обновления нашей компании.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами по адресу: info@company.com</p>
+            <form id="contact-form">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Корпоративный сайт. Все права защищены.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
